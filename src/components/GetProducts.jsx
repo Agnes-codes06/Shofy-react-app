@@ -97,9 +97,9 @@ const GetProducts = ({ searchTerm, selectedCategory, addToCart, toggleWishlist, 
 
         {!loading && !error && totalPages > 1 && (
           <div className="d-flex justify-content-center mt-5 gap-3">
-            <button className="btn btn-primary" disabled={currentPage === 1} onClick={() => setCurrentPage(c => c - 1)}>Prev</button>
+            <button className="btn btn-warning" disabled={currentPage === 1} onClick={() => setCurrentPage(c => c - 1)}>Prev</button>
             <span className="fw-bold align-self-center">Page {currentPage} of {totalPages}</span>
-            <button className="btn btn-primary" disabled={currentPage === totalPages} onClick={() => setCurrentPage(c => c + 1)}>Next</button>
+            <button className="btn btn-warning" disabled={currentPage === totalPages} onClick={() => setCurrentPage(c => c + 1)}>Next</button>
           </div>
         )}
       </div>

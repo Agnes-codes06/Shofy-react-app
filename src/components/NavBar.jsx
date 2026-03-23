@@ -63,8 +63,8 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedCategory, setSelectedCatego
             </ul>
           </div>
           
-          <Link to="/signin" className="btn btn-primary rounded-pill text-white text-decoration-none btn-sm d-none d-md-block">Sign In</Link>
-          <Link to="/signup" className="btn btn-primary btn-sm px-3 rounded-pill">Create Account</Link>
+          <Link to="/signin" className="btn btn-warning rounded-pill text-white fw-bold text-decoration-none btn-sm d-none d-md-block">Sign In</Link>
+          <Link to="/signup" className="btn btn-warning text-white fw-bold btn-sm px-3 rounded-pill">Create Account</Link>
 
           {/* ICONS */}
           <div className="d-flex gap-3 ms-2">
