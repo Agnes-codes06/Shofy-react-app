@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           {/* Column 1: Brand */}
           <div className="col-md-4 mb-4 text-start">
-            <h4 className="fw-bold text-primary">SHOFY</h4>
+            <h4 className="fw-bold text-warning">SHOFY</h4>
             <p className="text-white">
               Your trusted store for laptops, phones, and accessories.
             </p>
@@ -16,7 +16,7 @@ const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div className="col-md-4 mb-4 text-center">
-            <h5 className="fw-bold text-primary">Quick Links</h5>
+            <h5 className="fw-bold text-warning">Quick Links</h5>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <Link to="/" className="text-white text-decoration-none">Home</Link>
@@ -35,7 +35,7 @@ const Footer = () => {
 
           {/* Column 3: Contact Info */}
           <div className="col-md-4 mb-4 text-end">
-            <h5 className="fw-bold text-primary">Contact</h5>
+            <h5 className="fw-bold text-warning">Contact</h5>
             <p className="text-white mb-1">Email: support@shofy.com</p>
             <p className="text-white mb-1">Phone: +254 700 000 000</p>
             <p className="text-white">Nairobi, Kenya</p>

@@ -33,7 +33,7 @@ const Home = ({ setSelectedCategory }) => {
             <div className="carousel-caption d-none d-md-block text-start pb-5">
               <h1 className="display-4 fw-bold">Premium Laptops</h1>
               <p className="fs-5">Power your productivity with the latest tech.</p>
-              <button className="btn btn-primary btn-lg px-4" onClick={() => handleCategoryClick('Laptops')}>Shop Laptops</button>
+              <button className="btn btn-dark btn-lg px-4" onClick={() => handleCategoryClick('Laptops')}>Shop Laptops</button>
             </div>
           </div>
           <div className="carousel-item" data-bs-interval="3000">
@@ -41,7 +41,7 @@ const Home = ({ setSelectedCategory }) => {
             <div className="carousel-caption d-none d-md-block text-start pb-5">
               <h1 className="display-4 fw-bold">Latest Smartphones</h1>
               <p className="fs-5">Upgrade your mobile experience today.</p>
-              <button className="btn btn-primary btn-lg px-4" onClick={() => handleCategoryClick('Phones')}>View Phones</button>
+              <button className="btn btn-dark btn-lg px-4" onClick={() => handleCategoryClick('Phones')}>View Phones</button>
             </div>
           </div>
         </div>

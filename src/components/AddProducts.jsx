@@ -23,7 +23,7 @@ const AddProducts = () => {
     // Clear previous messages
     setError("");
     setSuccess("");
-    setLoading("Please wait as we upload your product to AlwaysData...");
+    setLoading("Please wait as we upload your product...");
 
     // Create the Envelope
     const formData = new FormData();
@@ -42,7 +42,7 @@ const AddProducts = () => {
       });
 
       setLoading(""); // Stop loading
-      setSuccess("Product successfully added to the " + category + " category!");
+      setSuccess("Product added successfully " + category + " category!");
       
       // Optional: Clear form after 2 seconds and navigate
       setTimeout(() => {

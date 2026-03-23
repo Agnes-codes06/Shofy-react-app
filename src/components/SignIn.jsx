@@ -69,7 +69,7 @@ const SignIn = () => {
 
         <form onSubmit={handleLogin}>
           <div className="mb-3">
-            <label className="form-label fw-bold small text-muted">Email Address</label>
+            
             <input 
               type="email" 
               className="form-control bg-light" 
@@ -81,7 +81,7 @@ const SignIn = () => {
           </div>
 
           <div className="mb-4">
-            <label className="form-label fw-bold small text-muted">Password</label>
+            
             <input 
               type="password" 
               className="form-control bg-light" 

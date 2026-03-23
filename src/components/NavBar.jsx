@@ -12,7 +12,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedCategory, setSelectedCatego
       <div className="container-fluid px-lg-5">
         {/* --- LOGO --- */}
         <Link className="navbar-brand fw-bold text-primary fs-3 me-4" to="/">
-          SHO<span className="text-white">FY</span>
+          SHO<span className="text-primary">FY</span>
         </Link>
 
         {/* --- NAV LINKS (The ones that were missing) --- */}
@@ -38,7 +38,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedCategory, setSelectedCatego
             <input 
               type="text" 
               className="form-control" 
-              placeholder="Search for tech..." 
+              placeholder="Search..." 
               value={searchTerm} 
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -63,7 +63,7 @@ const Navbar = ({ searchTerm, setSearchTerm, selectedCategory, setSelectedCatego
             </ul>
           </div>
           
-          <Link to="/signin" className="btn btn-link text-white text-decoration-none btn-sm d-none d-md-block">Sign In</Link>
+          <Link to="/signin" className="btn btn-primary rounded-pill text-white text-decoration-none btn-sm d-none d-md-block">Sign In</Link>
           <Link to="/signup" className="btn btn-primary btn-sm px-3 rounded-pill">Create Account</Link>
 
           {/* ICONS */}
