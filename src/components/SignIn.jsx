@@ -56,7 +56,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="container py-5 d-flex justify-content-center mt-5" style={{backgroundColor: 'rgba(215, 208, 226, 1)'}}>
+    <div className="container py-5 d-flex justify-content-center mt-5" style={{backgroundColor: 'rgb(251, 250, 253)'}}>
       <div className="card shadow-lg p-4 border-0" style={{ maxWidth: '400px', width: '100%' }}>
         <h2 className="text-center mb-4 fw-bold text-primary">Sign In</h2>
         

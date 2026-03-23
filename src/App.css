@@ -125,3 +125,76 @@ footer {
 .view-all-link:hover {
   letter-spacing: 1px;
 }
+
+
+/* Category Card Hover Effect */
+.category-card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px !important;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  background-color: #fce4ec !important; /* Slightly darker pink hover */
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+}
+
+.category-card:hover .view-all-link {
+  text-decoration: underline;
+  color: #0d6efd !important;
+}
+
+.category-circle img {
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-circle img {
+  transform: scale(1.1);
+}
+
+/* Best Selling Card Hover */
+.best-selling-card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.best-selling-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+}
+
+
+/* 1. The Container: This prevents the image from covering the text when it grows */
+.img-wrapper, .img-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden; /* CRITICAL: This clips the image so it stays inside the card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+/* 2. The Image: Your original logic applied to the new class */
+.product_img, .img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 3s ease; /* Smooth transition */
+}
+
+/* 3. The Hover Effect */
+.product-card-hover:hover .product_img, 
+.product-card-hover:hover .img-fluid {
+  transform: scale(1.2);
+}
+
+/* Optional: Slight lift on the whole card too */
+.product-card-hover {
+  transition: transform 0.3s ease;
+}
+
+.product-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}

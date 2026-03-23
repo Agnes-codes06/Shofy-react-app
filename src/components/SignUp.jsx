@@ -57,7 +57,7 @@ const SignUp = () => {
 
 
   return (
-    <div className='row justify-content-center'style={{backgroundColor: 'rgba(182, 212, 211, 1)'}}>
+    <div className='row justify-content-center'style={{backgroundColor: 'rgb(248, 250, 250)'}}>
         <div className='col-md-6 card shadow'>
 
             <h1>Sign up</h1>

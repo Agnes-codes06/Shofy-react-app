@@ -18,7 +18,7 @@ const Contact = () => {
 
       <div className="row justify-content-center">
         <div className="col-md-5 mb-4">
-          <div className="card border-0 shadow-sm p-4 bg-primary text-white h-100">
+          <div className="card border-0 shadow-sm p-4 bg-dark text-white h-100">
             <h4>Contact Information</h4>
             <p className="mt-4">📍 Nairobi, Kenya</p>
             <p>📞 +254 700 000 000</p>

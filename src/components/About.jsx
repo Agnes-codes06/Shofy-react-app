@@ -17,11 +17,11 @@ const About = () => {
           </p>
           <div className="row mt-4">
             <div className="col-6">
-              <h3 className="text-primary fw-bold">10k+</h3>
+              <h3 className="text-warning fw-bold">10k+</h3>
               <p className="small">Happy Customers</p>
             </div>
             <div className="col-6">
-              <h3 className="text-primary fw-bold">24/7</h3>
+              <h3 className="text-warning fw-bold">24/7</h3>
               <p className="small">Expert Support</p>
             </div>
           </div>
