@@ -57,10 +57,10 @@ const SignUp = () => {
 
 
   return (
-    <div className='row justify-content-center'style={{backgroundColor: 'rgb(248, 250, 250)'}}>
+    <div className='row justify-content-center p-5'style={{backgroundColor: 'rgb(248, 250, 250)'}}>
         <div className='col-md-6 card shadow'>
 
-            <h1>Sign up</h1>
+            <h1 className='text-primary text-center p-2 m-2'>Sign up</h1>
 
             <form action="" onSubmit={submit}>
 
